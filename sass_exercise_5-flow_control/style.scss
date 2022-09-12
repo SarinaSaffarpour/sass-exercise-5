@@ -1,0 +1,84 @@
+@use "sass:color";
+@use "variables.scss" as var;
+@use "function.scss" as func;
+$color-primary: var.$color-primary;
+$color-tertiary: var.$color-tertiary;
+$blue-color: var.$blue-color;
+
+@mixin articles($color, $border-color, $font-size) {
+  border: func.rem(1.5) solid $border-color;
+  padding: func.rem(15);
+  margin-top: func.rem(15);
+  color: $color;
+  font-size: $font-size;
+}
+
+.exercise {
+  border: func.rem(1.5) solid $color-primary;
+  text-align: center;
+  padding: func.rem(15);
+  padding-top: func.rem(20);
+
+  &-title1 {
+    color: $color-tertiary;
+    border-bottom: func.rem(1.5) solid $blue-color;
+    width: 55%;
+    margin: auto;
+    padding: func.rem(6);
+  }
+  &-title2 {
+    @extend .exercise-title1;
+    border: func.rem(1.5) solid $color-primary;
+    width: 25%;
+    padding: func.rem(22);
+    margin-top: func.rem(30);
+  }
+
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    .first-inner-container {
+      display: flex;
+      .blue-article {
+        @include articles($blue-color, $color-tertiary, 1rem);
+      }
+      .red-article {
+        @include articles($color-primary, $color-tertiary, 1rem);
+      }
+    }
+    .second-inner-container {
+      display: flex;
+      @for $var from 1 through 3 {
+        .fs-#{$var}rem {
+          margin: auto;
+          margin-top: func.rem(15);
+          border: func.rem(1.5) solid $color-primary;
+          width: 50px;
+          height: 50px;
+          font-size: #{$var}rem;
+          $bckcolor: 255- ($var * 255/19);
+          text-align: left;
+        }
+      }
+      @for $var1 from 1 through 19 {
+        @if $var1==10 {
+          #fs#{$var1} {
+            color: $color-primary;
+            background-color: $blue-color;
+          }
+        } @else {
+          #fs#{$var1} {
+            $bckcolor: 255- ($var1 * 255/19);
+            $comp-bckcolor: 255-$bckcolor;
+            color: rgb($comp-bckcolor, $comp-bckcolor, $comp-bckcolor);
+            background-color: rgb($bckcolor, $bckcolor, $bckcolor);
+          }
+        }
+      }
+    }
+
+    .footer-article {
+      @include articles($color-tertiary, $blue-color, func.rem(24));
+    }
+  }
+}
