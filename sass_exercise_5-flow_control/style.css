@@ -69,80 +69,80 @@
   text-align: left;
 }
 .exercise .first-container .second-inner-container #fs1 {
-  color: rgb(13, 13, 13);
-  background-color: rgb(242, 242, 242);
+  color: #0d0d0d;
+  background-color: #f2f2f2;
 }
 .exercise .first-container .second-inner-container #fs2 {
-  color: rgb(27, 27, 27);
-  background-color: rgb(228, 228, 228);
+  color: #1a1a1a;
+  background-color: #e6e6e6;
 }
 .exercise .first-container .second-inner-container #fs3 {
-  color: rgb(40, 40, 40);
-  background-color: rgb(215, 215, 215);
+  color: #262626;
+  background-color: #d9d9d9;
 }
 .exercise .first-container .second-inner-container #fs4 {
-  color: rgb(54, 54, 54);
-  background-color: rgb(201, 201, 201);
+  color: #333333;
+  background-color: #cccccc;
 }
 .exercise .first-container .second-inner-container #fs5 {
-  color: rgb(67, 67, 67);
-  background-color: rgb(188, 188, 188);
+  color: #404040;
+  background-color: #bfbfbf;
 }
 .exercise .first-container .second-inner-container #fs6 {
-  color: rgb(81, 81, 81);
-  background-color: rgb(174, 174, 174);
+  color: #4d4d4d;
+  background-color: #b3b3b3;
 }
 .exercise .first-container .second-inner-container #fs7 {
-  color: rgb(94, 94, 94);
-  background-color: rgb(161, 161, 161);
+  color: #595959;
+  background-color: #a6a6a6;
 }
 .exercise .first-container .second-inner-container #fs8 {
-  color: rgb(107, 107, 107);
-  background-color: rgb(148, 148, 148);
+  color: #666666;
+  background-color: #999999;
 }
 .exercise .first-container .second-inner-container #fs9 {
-  color: rgb(121, 121, 121);
-  background-color: rgb(134, 134, 134);
+  color: #737373;
+  background-color: #8c8c8c;
 }
 .exercise .first-container .second-inner-container #fs10 {
   color: red;
   background-color: blue;
 }
 .exercise .first-container .second-inner-container #fs11 {
-  color: rgb(148, 148, 148);
-  background-color: rgb(107, 107, 107);
+  color: #8c8c8c;
+  background-color: #737373;
 }
 .exercise .first-container .second-inner-container #fs12 {
-  color: rgb(161, 161, 161);
-  background-color: rgb(94, 94, 94);
+  color: #999999;
+  background-color: #666666;
 }
 .exercise .first-container .second-inner-container #fs13 {
-  color: rgb(174, 174, 174);
-  background-color: rgb(81, 81, 81);
+  color: #a6a6a6;
+  background-color: #595959;
 }
 .exercise .first-container .second-inner-container #fs14 {
-  color: rgb(188, 188, 188);
-  background-color: rgb(67, 67, 67);
+  color: #b3b3b3;
+  background-color: #4d4d4d;
 }
 .exercise .first-container .second-inner-container #fs15 {
-  color: rgb(201, 201, 201);
-  background-color: rgb(54, 54, 54);
+  color: #bfbfbf;
+  background-color: #404040;
 }
 .exercise .first-container .second-inner-container #fs16 {
-  color: rgb(215, 215, 215);
-  background-color: rgb(40, 40, 40);
+  color: #cccccc;
+  background-color: #333333;
 }
 .exercise .first-container .second-inner-container #fs17 {
-  color: rgb(228, 228, 228);
-  background-color: rgb(27, 27, 27);
+  color: #d9d9d9;
+  background-color: #262626;
 }
 .exercise .first-container .second-inner-container #fs18 {
-  color: rgb(242, 242, 242);
-  background-color: rgb(13, 13, 13);
+  color: #e6e6e6;
+  background-color: #1a1a1a;
 }
 .exercise .first-container .second-inner-container #fs19 {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+  color: #f2f2f2;
+  background-color: #0d0d0d;
 }
 .exercise .first-container .footer-article {
   border: 0.09375rem solid blue;
